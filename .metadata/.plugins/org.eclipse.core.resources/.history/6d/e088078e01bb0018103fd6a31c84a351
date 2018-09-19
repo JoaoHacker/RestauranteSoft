@@ -1,0 +1,19 @@
+package com.logica;
+
+import inv.logica.IPedidos;
+
+public class Pedidos implements IPedidos {
+
+	@Override
+	public void hacerPedido() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void mostrarProductos() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

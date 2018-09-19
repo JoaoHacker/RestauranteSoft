@@ -1,0 +1,8 @@
+package inv.logica;
+
+public interface IPedidos {
+	
+	void realizarPedido();
+	void ofrecerProductos();
+
+}

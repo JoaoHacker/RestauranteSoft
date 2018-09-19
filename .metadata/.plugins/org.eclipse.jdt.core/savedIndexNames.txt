@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\MAURICIO RUIZ\Dropbox\Proyectos Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+402046153.index
+858675569.index
+4142411180.index
+4147595463.index
+4074466843.index

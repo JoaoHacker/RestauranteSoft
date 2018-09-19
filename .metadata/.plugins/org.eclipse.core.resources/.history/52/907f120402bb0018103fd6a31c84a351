@@ -1,0 +1,13 @@
+package com.logica;
+
+import inv.logica.IGestionInventarios;
+
+public class GestionInventarios implements IGestionInventarios {
+
+	@Override
+	public void gestionarInventario() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

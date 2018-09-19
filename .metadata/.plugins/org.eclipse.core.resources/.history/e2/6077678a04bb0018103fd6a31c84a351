@@ -1,0 +1,38 @@
+package edu.cableado;
+
+import edu.utilitario.Cargador;
+
+
+public class Restaurante {
+
+	public static void main(String[] args) {
+		
+		
+			
+		
+		
+        /*try {
+		
+			clsb = cb.cargarUnaClaseDesdeSuDirectorio(IGestionInventario.class.getName());
+			if (clsb != null) {
+				IGestionInventario ia = (IGestionInventario)clsb.getConstructor().newInstance();
+				ia.actualizar();
+			}
+		}catch (Exception e) {e.printStackTrace();}*/
+		try {
+			Cargador cf = new Cargador("front",ClassLoader.getSystemClassLoader());
+			//Cargador cb = new Cargador("back",ClassLoader.getSystemClassLoader());
+	        Class clsf,clsb;
+			
+			clsf = cf.cargarUnaClaseDesdeSuDirectorio(IPagos.class.getName());
+			if (clsf != null) {
+				IPagos ir = (IPagos)clsf.getConstructor().newInstance();
+				ir.pagar();
+				
+			}
+		} catch (Exception e) {e.printStackTrace();}
+      
+	}
+
+	}
+

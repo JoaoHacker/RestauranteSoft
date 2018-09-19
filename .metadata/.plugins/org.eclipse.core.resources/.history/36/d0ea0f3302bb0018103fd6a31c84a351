@@ -1,0 +1,19 @@
+package com.logica;
+
+import inv.logica.IGestionAlimentos;
+
+public class GestionAlimentos implements IGestionAlimentos {
+
+	@Override
+	public void actualizarAlimentos() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void mostrarPedidosPrioritarios() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
