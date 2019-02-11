@@ -1,0 +1,7 @@
+package inv.logica;
+
+public interface IGestionAlimentos {
+
+	void mostrarPeidosPrioritarios();
+	void actualizarAlimentos();
+}

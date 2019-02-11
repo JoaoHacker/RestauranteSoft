@@ -8,7 +8,7 @@ public class GestionAlimentos implements IGestionAlimentos {
 
 	@Override
 	public void actualizarAlimentos() {
-		JOptionPane.showMessageDialog(null, getClass().getName());
+		JOptionPane.showMessageDialog(null,"Hola"+ getClass().getName());
 
 	}
 

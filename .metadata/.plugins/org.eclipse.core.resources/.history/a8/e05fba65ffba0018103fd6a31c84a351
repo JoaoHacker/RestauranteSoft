@@ -1,5 +1,0 @@
-package inv.logica;
-
-public interface IGestionAlimentos {
-
-}
