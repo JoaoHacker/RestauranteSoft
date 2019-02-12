@@ -8,7 +8,7 @@ public class Pagos implements IPagos {
 
 	@Override
 	public void capturarPago() {
-		JOptionPane.showMessageDialog(null,"Captura pago"+ getClass().getName());
+		JOptionPane.showMessageDialog(null,"Captura pagos"+ getClass().getName());
 
 	}
 

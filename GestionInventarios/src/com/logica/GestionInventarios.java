@@ -9,7 +9,7 @@ public class GestionInventarios implements IGestionInventarios {
 
 	@Override
 	public void gestionarInventario() {
-		JOptionPane.showMessageDialog(null, "Hola"+getClass().getName());
+		JOptionPane.showMessageDialog(null, "Holas"+getClass().getName());
 
 	}
 

@@ -1,17 +1,22 @@
 package vista;
 
 import java.awt.EventQueue;
+import java.awt.Window;
 
 import javax.swing.JFrame;
 
-public class VistaVerPedidos {
+import inv.logica.IPedidos;
+
+public class VistaVerPedidos implements IPedidos{
 
 	private JFrame frame;
 
 	/**
 	 * Launch the application.
 	 */
-	public void mostrarVentana() {
+	
+	@Override
+	public void mostrarProductos() {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -23,10 +28,15 @@ public class VistaVerPedidos {
 			}
 		});
 	}
-
+	
+	
+	public void eliminarVentana() {
+		frame.hide();
+	}
 	/**
 	 * Create the application.
 	 */
+	
 	public VistaVerPedidos() {
 		initialize();
 	}
@@ -34,10 +44,17 @@ public class VistaVerPedidos {
 	/**
 	 * Initialize the contents of the frame.
 	 */
+	
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	@Override
+	public void hacerPedido() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
